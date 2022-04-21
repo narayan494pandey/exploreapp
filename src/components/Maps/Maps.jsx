@@ -8,11 +8,12 @@ const Maps = ()  =>{
   const classes = useStyles();
   const isMobile = useMediaQuery('(min-width:600px)');
   const coordinates = {lat:50.5,lng:8.6};
+  const key = 'AIzaSyCR9UEBTwnZJX2IRQzq2rE3VMdqSEz534Y';
   
   
   return (
     <div className={classes.mapContainer}>
-      <GoogleMapReact bootstrapURLKeys ={{key:'AIzaSyCR9UEBTwnZJX2IRQzq2rE3VMdqSEz534Y'}}
+      <GoogleMapReact bootstrapURLKeys ={{key:key}}
       defaultCenter = {coordinates} center = {coordinates} defaultZoom ={14} margin={[50,50,50,50]} options={ '' }
       onChange={ '' }
       onChildClick={ '' }
