@@ -8,7 +8,7 @@ const Maps = ()  =>{
   const classes = useStyles();
   const isMobile = useMediaQuery('(min-width:600px)');
   const coordinates = {lat:50.5,lng:8.6};
-  const key = 'AIzaSyCR9UEBTwnZJX2IRQzq2rE3VMdqSEz534Y';
+  const key = 'x';
   
   
   return (
